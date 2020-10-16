@@ -26,7 +26,15 @@ header {
 }
 
 .content-pane {
+  display: flex;
+  flex-direction: column;
   padding: 40px;
+}
+
+.vendor-row {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
 }
 
 .fa-stack[data-count]:after{
