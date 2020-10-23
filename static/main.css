@@ -4,8 +4,8 @@ html body {
 }
 
 header {
-	padding-left: 40px;
-	padding-top: 20px;
+	padding-left: 40%;
+  padding-top: 20px;
 }
 
 .vendor-wrapper {
@@ -28,6 +28,7 @@ header {
 .content-pane {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 40px;
 }
 
@@ -60,4 +61,9 @@ header {
 
 .red-cart {
 	color: #DF0000;
+}
+
+#cart-wrapper {
+  padding-left: 90%;
+  padding-top: 30px;
 }
